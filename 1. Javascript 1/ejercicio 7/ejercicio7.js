@@ -25,4 +25,4 @@ let countries = [{
     "cioc": "ESP"
 }]
 
-console.log(countries[0]); 
+console.log("Moneda:" + countries[0]['currencies'][0]['code']);  // es un array dentro de un array, la posicion es la 0 porque solo hay un array
