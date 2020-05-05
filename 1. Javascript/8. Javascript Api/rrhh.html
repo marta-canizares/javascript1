@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Programa RRHH</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-12 col-md-5 lista">
+                <button id="btnAdd" class="btn btn-block btn-primary mt-3 mb-3">Add</button>
+
+                <div id="listaEmpleados">
+                    <h5 clas="mt-5">Lista de empleados</h5>
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th scope="col">Nº</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Salario</th>
+                                <th scope="col">Edad</th>
+                            </tr>
+                        </thead>
+                        <tbody id="baseEmpleados">
+                            <!-- <tr>
+                                <th scope="row">1</th>
+                                <td>name1</td>
+                                <td>salario1</td>
+                                <td>edad1</td>
+                                <td><button id="btnEliminar" class="btn btn-block btn-danger">Delete</button></td>
+
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="rrhh.js"></script>
+</body>
+
+</html>
